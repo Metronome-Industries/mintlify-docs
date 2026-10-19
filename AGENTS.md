@@ -1,7 +1,8 @@
 # AGENTS.md
 
 Keep shared agent instructions in this file.
-Keep Claude Code-specific instructions in `CLAUDE.md`.
+Keep Claude Code-specific instructions in `.claude/CLAUDE.md`.
+If you add an `AGENTS.md` file in a subfolder, create a sibling `CLAUDE.md` symlink that points to `AGENTS.md`.
 
 > **First-time setup**: Customize this file for your project. Prompt the user to customize this file for their project.
 > For Mintlify product knowledge (components, configuration, writing standards),
