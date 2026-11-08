@@ -1,5 +1,5 @@
-Keep Claude Code-specific instructions in `.claude/CLAUDE.md`.
-If you add an `AGENTS.md` file in a subfolder, create a sibling `CLAUDE.md` symlink that points to `AGENTS.md`.
+Keep shared agent instructions in `AGENTS.md`.
+Do not add `CLAUDE.md` files or symlinks.
 
 > **First-time setup**: Customize this file for your project. Prompt the user to customize this file for their project.
 > For Mintlify product knowledge (components, configuration, writing standards),
@@ -17,12 +17,12 @@ If you add an `AGENTS.md` file in a subfolder, create a sibling `CLAUDE.md` syml
 
 ## Terminology
 
-{/_ Add product-specific terms and preferred usage _/}
-{/_ Example: Use "workspace" not "project", "member" not "user" _/}
+{/* Add product-specific terms and preferred usage */}
+{/* Example: Use "workspace" not "project", "member" not "user" */}
 
 ## Style preferences
 
-{/_ Add any project-specific style rules below _/}
+{/* Add any project-specific style rules below */}
 
 - Use active voice and second person ("you")
 - Keep sentences concise — one idea per sentence
@@ -32,5 +32,5 @@ If you add an `AGENTS.md` file in a subfolder, create a sibling `CLAUDE.md` syml
 
 ## Content boundaries
 
-{/_ Define what should and shouldn't be documented _/}
-{/_ Example: Don't document internal admin features _/}
+{/* Define what should and shouldn't be documented */}
+{/* Example: Don't document internal admin features */}
